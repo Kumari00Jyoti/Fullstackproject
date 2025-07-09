@@ -1,0 +1,66 @@
+#box{
+    border:1px solid black;
+    width: 1470px;
+    margin: 30px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(18,1fr);
+    background-color: rgb(169, 187, 228);
+    
+}
+#box>div:nth-child(32){
+    grid-area:2/14/3/16 ;
+}
+#box>div:nth-child(36){
+    grid-area:3/1/4/3 ;
+}
+#box>div:nth-child(53){
+    grid-area:4/1/5/3;
+}
+#box>div:nth-child(70){
+    grid-area:5/1/6/4 ;
+}
+#box>div:nth-child(81){
+    grid-area:5/12/6/14;
+}
+#box>div:nth-child(89){
+    grid-area:6/5/7/11;
+}
+#pgcontainer{
+      display: flex;
+    flex-direction: column;
+    
+}
+.pg{
+    width:70px;
+    border: 1px solid black;
+    margin: 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(100, 78, 110);
+     padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.key{
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 1px solid black;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(98, 70, 123);
+    cursor: pointer;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.key:hover{
+    background-color: violet;
+}
+.pg:hover{
+    background-color: violet;
+}

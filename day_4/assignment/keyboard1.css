@@ -1,0 +1,175 @@
+#box{
+    width:1100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(93, 81, 81);
+}
+.key1,.key2,.key3,.key4,.key5,.key6{
+    border: 1px solid black;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+    cursor: pointer;
+    
+}
+.key1:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.key2:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.key3:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.key4:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.key5:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.key6:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+ .capslock:hover{
+    background-color: rgb(54, 52, 52);
+    
+    
+}
+.shiftleft:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.backspace:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.pg:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.enter:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.shiftright:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.tab:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+.spacebar:hover{
+    background-color: rgb(54, 52, 52);
+    
+}
+
+
+#row1,#row2,#row3,#row4,#row5,#row6{
+    display: flex;
+    gap: 5px;
+    margin: 8px;
+    
+}
+#pgcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.pg{
+    width:70px;
+    border: 1px solid black;
+    margin: 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+     padding: 5px;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    
+}
+.backspace{
+    width:120px;
+    border: 1px solid black;
+    border-radius: 5px;
+     align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+     padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.spacebar{
+    width:352px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+}
+.shiftright{
+    width:180px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+     padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.capslock{
+     width:100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+     padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.shiftleft{
+     width:170px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+     padding: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+.tab{
+ width:90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+     padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.enter{
+     width:100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}

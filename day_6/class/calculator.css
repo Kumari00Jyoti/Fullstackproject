@@ -1,0 +1,52 @@
+#parent{
+    border: 2px solid rgb(91, 91, 234);
+    width: 320px;
+    height: 380px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    border-radius: 10px;
+     box-shadow: rgba(63, 34, 170, 0.35) 0px 5px 15px;
+    background-color:  rgb(28, 72, 176);
+}
+input{
+    height: 55px;
+    width:286px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-color: violet;
+}
+#child1{
+    border: 2px solid violet;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+}
+#child2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    box-sizing: border-box;
+
+}
+.box{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgb(155, 122, 185);
+    margin: 5px;
+}
+.box:hover{
+    background-color: violet;
+}
+.box1:hover{
+    background-color: violet;
+}
+.box1{
+    grid-area: 4/3/5/5;
+    border-radius: 5px;
+    background-color: rgb(155, 122, 185);
+
+}
