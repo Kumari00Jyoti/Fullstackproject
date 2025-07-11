@@ -1,4 +1,4 @@
-#parent{
+#calculator{
     border: 2px solid rgb(91, 91, 234);
     width: 320px;
     height: 380px;
@@ -18,10 +18,10 @@ input{
     border-color: violet;
 }
 #child1{
-    border: 2px solid violet;
     height: 60px;
     margin: 10px;
     border-radius: 10px;
+    border: none;
     
     
 }
@@ -31,6 +31,20 @@ input{
     box-sizing: border-box;
 
 }
+.operator{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgba(9, 6, 207, 0.68);
+    margin: 5px;
+}
+.equal{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgba(9, 6, 207, 0.68);
+    margin: 5px;
+}
 .box{
     height: 60px;
     width: 60px;
@@ -38,15 +52,24 @@ input{
     background-color: rgb(155, 122, 185);
     margin: 5px;
 }
+.c{
+     height: 70px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgb(76, 144, 203);
+    margin: 5px;
+}
+.c:hover{
+    background-color: rgb(95, 128, 128);
+}
+.operator:hover{
+    background-color: rgb(66, 204, 197);
+}
 .box:hover{
     background-color: violet;
 }
 .box1:hover{
-    background-color: violet;
+    background-color: rgb(148, 182, 180);
 }
-.box1{
-    grid-area: 4/3/5/5;
-    border-radius: 5px;
-    background-color: rgb(155, 122, 185);
 
-}
+

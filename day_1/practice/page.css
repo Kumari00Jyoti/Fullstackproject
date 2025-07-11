@@ -1,0 +1,106 @@
+body{
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+#container{
+    border: 1px solid black;
+    width: 1250px;
+    margin: auto;
+    background-color: blue;
+}
+.parent{
+    border: 1px solid black;
+    width: 900px;
+    margin: 10px;
+    margin-left: 170px;
+    
+}
+.head{
+    color: white;
+    text-align: center;
+}
+nav a{
+   margin: 0 20px;
+   text-decoration: none;
+   color: blue;
+    font-weight: bold;
+}
+.home{
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 0 5px;
+
+}
+.login{
+    background-color:aqua ;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+header{
+    
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: white;
+    
+}
+#bodybox{
+    width: 870px;
+    border: none;
+    background-color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.heading{
+    color: aqua;
+    font-weight: bold;
+}
+.para{
+    color: rgb(124, 121, 121);
+}
+.buttons{
+    height: 35px;
+    width: 132px;
+    border-radius: 10px;
+    color: white;
+    background-color: aqua;
+    border: none;
+}
+.lastbox{
+    background-color: aqua;
+    height: 200px;
+    width: 860px;
+    padding: 20px;
+    color: white;
+}
+.area{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+.area1{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.area2{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 52px;
+}
+
